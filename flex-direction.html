@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>flex-direction</title>
+</head>
+<body>
+    <div class="topp">
+        <h1 id="top">display: flex;</h1>
+        <p>parent { flex container }</p>
+    </div>
+    <h2>The flex container properties are:</h2>
+      <ul>
+        <li class="btn"><a href="index.html">justify-content</a></li>
+        <li class="btn"><a href="align-item.html">align-item</a></li>
+        <li class="current"><a href="flex-direction.html">flex-direction</a></li>
+        <li class="btn"><a href="flex-wrap.html">flex-wrap</a></li>
+        <li class="btn"><a href="flex-flow.html">flex-flow</a></li>
+        <li class="btn"><a href="align-content.html">align-content</a></li>
+      </ul>
+      
+        <div class="img">
+          <div class="direction">
+            <p><span class="span2">row</span><br>
+              The flex container's main-axis is defined to be the same as the text direction. The main-start and main-end points are the same as the content.</p>
+            <p><span class="span2">row-reverse</span><br>
+              Behaves the same as row but the main-start and main-end points are permuted.</p>
+             <img src="./img/mainaxis_flex-direction row.png" alt="direction-row/reverse">
+          </div>
+          <div class="direction">
+            <p><span class="span2">column</span><br>
+              The flex container's main-axis is the same as the block-axis. The main-start and main-end points are the same as the before and after points of the writing-mode.</p>
+            <p><span class="span2">column-reverse</span><br>
+                Behaves the same as column but the main-start and main-end are permuted.</p>
+            <img src="./img/mainaxis_flex-direction column.png" alt="direction-column/reverse">
+          </div>
+          <hr>
+        </div>
+
+     
+   
+</body>
+</html>

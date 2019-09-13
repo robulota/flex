@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {font-family: 'Roboto', sans-serif;}
+
+
+hr {
+  border: 0 dotted;
+  clear:both;
+  display:block;
+  width: 70%;               
+  background-color: darkviolet;
+  height: 0.5px;
+  margin: 2rem auto;
+}
+
+.note2 {
+  background: rgba(49, 43, 43, 0);
+  color: rgb(172, 30, 30);
+  border-radius: 8px;
+  padding: 5px;
+  width: 30%;
+  margin: 50px auto auto;
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+    
+}
+
+.wrap div {
+  width: 500px;
+  margin: 50px;
+  border: 1.5px white solid;
+  border-radius: 8px;
+  padding:10px;
+
+}
+
+img {
+  width: 500px;
+  }
+
+.img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+
+.img div {
+  width: 500px;
+  border: 1.5px white solid;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.direction {
+  margin: 50px;
+}
+
+.flow {
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin:  50px auto;
+  border: 1.5px white solid;
+  border-radius: 8px;
+  padding: 10px;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(163, 110, 163);
+ text-decoration-line: underline;
+ text-decoration-color: rgba(196, 196, 60, 0.555);
+ margin-top: 6rem;
+}
+
+.topp p {
+  display: flex;
+  justify-content: center;
+  background: rgba(196, 196, 60, 0.555);
+  color:rgb(163, 110, 163);
+  width: 180px;
+  margin: -2rem auto 6rem auto;
+  border-radius: 8px;
+}
+
+#align-content p {
+  background:rgba(211, 211, 211, 0.671);
+  border-radius: 8px;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+
+h3 {
+  background: rgba(211, 211, 211, 0.671);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.1rem;
+  color:rgb(163, 110, 163);
+  background: lightgray;
+  width: 150px;
+  border-radius: 8px;
+  margin:0 auto;
+}
+
+span {
+  color: coral;
+}
+
+.span2 {
+  color: lightseagreen
+}
+
+.span3 {
+  color: blueviolet
+}
+
+body {
+  background: rgb(230, 221, 221);
+  color: darkslateblue
+}
+
+#grandparent {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.properties {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+
+  }
+
+/* button */
+ul { display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color:rgb(214, 212, 226);
+}
+
+ul li {
+  list-style: none;  
+}
+
+.btt {
+  text-decoration: none;
+  background: rgba(69, 60, 126, 0.87);
+  padding: 3px 8px;
+  border-radius: 8px;
+  margin: 5px;
+  border: solid 1px;
+  color: rgb(223, 213, 213);
+  position: relative;
+  bottom: 10rem;
+  left: 0.8rem;
+}
+
+.btt:hover { background:rgba(117, 101, 216, 0.87);
+  cursor: pointer;
+}
+
+
+.btn {
+  background: rgba(69, 60, 126, 0.87);
+  padding: 3px 8px;
+  border-radius: 8px;
+  margin: 5px;
+  border: solid 1px;
+}
+
+.btn:hover{
+  background:rgba(117, 101, 216, 0.87);
+  cursor: pointer;
+}
+
+.current {
+  background: rgba(69, 60, 126, 0.87);
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: solid 3px;
+  border-color: rgb(165, 123, 130);
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Justify content */
+.parent {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+
+}
+
+.parent :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+  
+}
+
+.parent :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent2 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent2 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent2 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent2 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent2 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent2 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent3 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent3 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent3 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent3 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent3 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent3 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent4 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent4 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent4 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent4 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent4 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent4 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent5 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent5 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent5 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent5 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent5 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent5 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+/* Align items */
+
+.parent6 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: stretch;
+  margin-top: 50px;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent6 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent6 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent6 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent6 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent6 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent7 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent7 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent7 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent7 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent7 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent7 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent8 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: flex-start;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent8 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent8 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent8 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent8 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent8 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent9 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent9 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent9 :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent9 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent9 :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent9 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+.parent10 {
+  background: lightblue;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: baseline;
+  border: 2px white solid;
+  border-radius: 8px;
+}
+
+.parent10 :nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background: green;
+  color: white;
+}
+
+.parent10  :nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: lightcoral;
+  color: white;
+}
+
+.parent10 :nth-child(3) {
+  width: 120px;
+  height: 200px;
+  background: orange;
+  color: white;
+}
+
+.parent10  :nth-child(4) {
+  width: 50px;
+  height: 160px;
+  background: purple;
+  color: white;
+}
+
+.parent10 :nth-child(5) {
+  width: 200px;
+  height: 40px;
+  background: pink;
+  color: white;
+}
+
+
+/* Align content */
+
+.aligncontent-img {
+  margin: 10px;
+  width: 150px;
+  height: 90px;
+}
+
+#align-content {
+  margin: auto;  
+  width: 80%;
+  height: 100%;
+  
+}
+
+.align-content1 {
+  background: lightblue;
+  height: 500px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  border: 1.5px solid white;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.align-content2 {
+  background: lightblue;
+  height: 600px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 1.5px solid white;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.align-content3 {
+  background: lightblue;
+  height: 600px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  border: 1.5px solid white;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.align-content4 {
+  background: lightblue;
+  height: 600px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  border: 1.5px solid white;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.align-content5 {
+  background: lightblue;
+  height: 600px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  border: 1.5px solid white;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.align-content6 {
+  background: lightblue;
+  height: 600px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  border: 1.5px solid white;
+  border-radius: 9px;
+  margin: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>flex-wrap</title>
+</head>
+<body>
+    <div class="topp">
+        <h1 id="top">display: flex;</h1>
+        <p>parent { flex container }</p>
+    </div>
+    <h2>The flex container properties are:</h2>
+      <ul>
+        <li class="btn"><a href="index.html">justify-content</a></li>
+        <li class="btn"><a href="align-item.html">align-item</a></li>
+        <li class="btn"><a href="flex-direction.html">flex-direction</a></li>
+        <li class="current"><a href="flex-wrap.html">flex-wrap</a></li>
+        <li class="btn"><a href="flex-flow.html">flex-flow</a></li>
+        <li class="btn"><a href="align-content.html">align-content</a></li>
+      </ul>
+
+      <div class="wrap">
+        <div>
+          <p><span class="span3">nowrap</span><br>
+            The flex items are laid out in a single line which may cause the flex container to overflow. The cross-start is either equivalent to start or before depending flex-direction value. This is the default value.</p>
+          <img src="./img/flex-wrap.png" alt="flex-wrap">
+        </div>
+        
+        <div>
+          <p><span class="span3">wrap</span><br>
+              The flex items break into multiple lines. The cross-start is either equivalent to start or before depending flex-direction value and the cross-end is the opposite of the specified cross-start.</p>
+          <img src="./img/flex-wrap.png" alt="flex-wrap">
+        </div>
+        
+        <div>
+          <p><span class="span3">wrap-reverse</span><br>
+                Behaves the same as wrap but cross-start and cross-end are permuted.</p>
+          <img src="./img/flex-wrap.png" alt="flex-wrap">
+        </div>
+        <hr>
+     </div>
+     <hr>
+      
+   
+</body>
+</html>
